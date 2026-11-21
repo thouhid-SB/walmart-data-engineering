@@ -1,0 +1,11 @@
+source:
+  directory: data/incoming
+  file_pattern: "*.csv"
+
+aws:
+  region: ap-south-1
+  bucket_name: ecom-data-lake-thouhid
+
+s3:
+  raw_prefix: raw/
+  load_type: initial_load

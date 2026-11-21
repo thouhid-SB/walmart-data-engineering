@@ -1,0 +1,6 @@
+pandas
+great-expectations
+boto3
+python-dotenv
+pyyaml
+pytest

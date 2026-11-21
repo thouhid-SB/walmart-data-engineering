@@ -1,0 +1,47 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+secrets/
+
+# Python tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Generated data
+data/incoming/
+data/rejected/
+data/processed/
+
+# Credentials
+*.pem
+*.key
+
+# Source datasets
+ingestion/data/old_data/
+
+# Runtime ingestion state
+ingestion/manifests/ingestion_manifest.json
