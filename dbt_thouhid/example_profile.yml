@@ -1,0 +1,11 @@
+walmart_dbt:
+  target: dev
+  outputs:
+    dev:
+      type: databricks
+      catalog: walmart
+      schema: dbt_dev
+      host: https://YOUR_DATABRICKS_WORKSPACE
+      http_path: /sql/1.0/warehouses/YOUR_WAREHOUSE_ID
+      token: YOUR_DATABRICKS_TOKEN
+      threads: 4

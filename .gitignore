@@ -45,3 +45,13 @@ ingestion/data/old_data/
 
 # Runtime ingestion state
 ingestion/manifests/ingestion_manifest.json
+
+# dbt
+**/target/
+**/dbt_packages/
+**/logs/
+**/profiles.yml
+
+# dbt local databases
+**/*.duckdb
+**/*.sqlite
