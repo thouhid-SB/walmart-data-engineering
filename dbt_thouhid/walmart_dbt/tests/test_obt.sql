@@ -8,4 +8,4 @@ where
     or obt.employee_id is null
     or obt.store_id is null
     or obt.order_item_id is null
-    or ob.customer_id is null
+    or obt.customer_id is null

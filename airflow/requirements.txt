@@ -1,0 +1,12 @@
+# Ingestion
+pandas
+great-expectations
+boto3
+python-dotenv
+pyyaml
+
+# dbt
+dbt-databricks
+
+# Testing
+pytest

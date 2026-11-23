@@ -105,6 +105,7 @@ def main():
 
         except Exception as error:
             print(f"S3 upload failed: {error}")
+            raise
 
 
 if __name__ == "__main__":

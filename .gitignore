@@ -55,3 +55,5 @@ ingestion/manifests/ingestion_manifest.json
 # dbt local databases
 **/*.duckdb
 **/*.sqlite
+
+airflow/profiles/
