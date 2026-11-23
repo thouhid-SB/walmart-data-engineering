@@ -85,7 +85,7 @@ def orchestrate():
     # 11. Gold ephemeral models
     @task.bash(cwd=DBT_PROJECT)
     def gold_ephemeral():
-        return "dbt run --select path:models/gold/eph"
+        return "dbt run --select path:models/gold/ephemeral"
 
     ephemeral = gold_ephemeral()
 
