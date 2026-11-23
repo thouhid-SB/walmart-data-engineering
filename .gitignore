@@ -57,3 +57,6 @@ ingestion/manifests/ingestion_manifest.json
 **/*.sqlite
 
 airflow/profiles/
+
+# Airflow generated configuration
+airflow/config/
