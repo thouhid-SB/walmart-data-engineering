@@ -1,0 +1,35 @@
+# Future Improvements
+
+## 1. Synthetic Data Ingestion — High Priority
+- Implement a synthetic data generation process.
+- Generate new Walmart business records for incremental ingestion.
+- Introduce realistic inserts and updates to existing records.
+- Test the ingestion pipeline's idempotency and duplicate handling.
+- Validate CDC processing through Databricks.
+- Verify SCD Type 2 history tracking in Gold dimensions.
+- Test late-arriving and updated records.
+
+## 2. Dockerization — Medium Priority
+- Finalize Docker configuration for the entire project.
+- Containerize the Python ingestion application.
+- Integrate ingestion with the existing Airflow Docker environment.
+- Ensure reproducible dependency installation.
+- Document the complete Docker-based setup.
+
+## 3. CI/CD — Medium Priority
+- Introduce GitHub Actions.
+- Automate Python tests and validation.
+- Add dbt parsing and testing checks.
+- Automate basic project quality checks.
+- Explore deployment automation.
+
+## 4. End-User BI and Reporting — Low Priority
+- Explore Databricks SQL dashboards.
+- Explore Power BI integration.
+- Build business-facing Walmart sales dashboards.
+- Present KPIs, sales trends, product performance and customer insights.
+
+## 5. Additional Enhancements
+- Improve project documentation where necessary.
+- Explore additional data quality checks.
+- Review pipeline performance and optimization opportunities.

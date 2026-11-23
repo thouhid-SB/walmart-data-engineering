@@ -1,12 +1,13 @@
 # Ingestion
-pandas
-great-expectations
-boto3
-python-dotenv
-pyyaml
+pandas==3.1.0
+great_expectations==1.25.0
+boto3==1.43.117
+python-dotenv==1.2.4
+PyYAML==6.0.3
 
 # dbt
-dbt-databricks
+dbt-core==1.12.7
+dbt-databricks==1.13.1
 
 # Testing
-pytest
+pytest==9.2.0
